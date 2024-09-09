@@ -1,0 +1,328 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.banner-body, .our-services, .testimonials, .from-blog, .icons, .recent-works, .row1, .row2, .load-button, .poster, .t-row1, .t-row2, .recent-works,footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header {
+    width: 100%;
+    height: 62px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+}
+
+.logo {
+    height: 22px;
+    width: 180px;
+    margin-left: 25px;
+    background-image: url(logo2.png);
+    background-size: contain;
+    
+}
+a {
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu-bar {
+    top: 0px;
+    height: 62px;
+    width:1200px;
+    margin: auto;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.banner {
+    width: 100%;
+    height: 600px;
+    background-image: url(image.jpg);
+}
+
+.icons {
+    height: 280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tools,.heart,.base,.globe{
+    color: rgb(225, 72, 72);;
+    padding:30px 30px 10px 30px;
+    align-items: center;
+    width: 38px;
+    height: 45px;
+    border-radius:100px;
+    background-color: transparent;
+    border: 2px transparent;
+}
+.tools:hover{
+    color: #FFFFFF;
+    border-color: white;
+    background-color: rgb(225, 72, 72);
+}.heart:hover{
+    color: #FFFFFF;
+    border-color: white;
+    background-color: rgb(225, 72, 72);
+}.base:hover{
+    color: #FFFFFF;
+    border-color: white;
+    background-color:rgb(225, 72, 72);
+}.globe:hover{
+    color: #FFFFFF;
+    border-color: white;
+    background-color:rgb(255, 72, 72);
+}
+.tool-icon {
+    width: 280px;
+    align-items: center;
+    height: 350px;
+    padding: 30px 0px;
+    margin: auto;
+}
+.container {
+    width: 100%;
+    padding: 30px 0; /* Added padding to prevent margin collapse */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recent-works, .load-button, .our-services, .testimonials, .from-blog,.footer {
+    width: 100%;
+    background-color: #F7F7F7;
+    padding: 30px 0; /* Added padding for spacing */
+}
+button{
+    height: 30px;
+    width: 180px;
+    background-color: #FFFFFF;
+    color: black;
+}
+.load-button{
+    margin-top: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+}
+.poster{
+    height:300px;
+    width: 100%;
+    background-image: url(poster.jpg);
+    background-size: cover;
+}
+.our-services{
+    padding: 0px;
+    background-color: #FFFFFF;
+    font-size:30px ;
+    text-align: center;
+}
+.title{
+    text-decoration: underline red;
+    padding: 0px 0px 30px 0px;
+    height: 40px;
+    width:100%;
+}
+.recent-works {
+    height: auto; /* Allow auto height for flexibility */
+}
+
+.r-row1, .r-row2, .row1, .row2 ,.t-row1,.t-row2,.inner-row {
+    height: auto; /* Allow auto height for flexibility */
+    width: 100%;
+    max-width: 1200px; /* Max width ensures they don't stretch beyond the container */
+    margin: auto;
+    display: flex;
+    justify-content: space-between; /* Space between instead of around */
+    align-items: flex-start; /* Align at the top */
+    gap: 20px; /* Added gap to prevent intersection */
+    padding: 20px; /* Added padding for space between items */
+}
+
+.paint, .time, .homes, .map, .shot, .handbook {
+    height: 385px;
+    width: 380px;
+    position: relative;
+    text-align: center;
+    background-size: contain;
+}
+.paint{
+    background-image: url(11.jpg);
+}
+.time{
+    background-image: url(22.jpg);
+}
+.homes{
+    background-image: url(33.jpg);
+}
+.map{
+    background-image: url(44.png);
+}
+.shot{
+    background-image: url(66.jpg);
+}
+.handbook{
+    background-image: url(55.jpg);
+}
+.load-button {
+    height: 90px;
+}
+
+.code, .seo, .tone, .easy, .well, .ready {
+    height:200px;
+    width: 400px;
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6,p{
+    text-decoration:none ;
+    font-size: 15px;
+}
+.img1,.img2,.img3,.img4{
+    height:130px;
+    width: 100px;
+    border-radius: 100px;
+    background-size: cover;
+}
+.matter{
+    height: 100px;
+    width: 380px;
+    position: absolute;
+    bottom: 0px;
+    background-color: #FFFFFF;
+}
+.img1{
+    background-image: url(jordan.png);
+   
+}
+.img2{
+    background-image: url(mila.png);
+
+}
+.img3{
+    background-image: url(mike.jpg);
+
+}
+.img4{
+    background-image: url(mike.png);
+
+}
+.john,.mila,.artez,.romer{
+    height:180px;
+    width: 480px;
+    margin: 20px 20px 20px 20px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.testimonials{
+    height:auto;
+    width: 100%;
+    font-size:30px ;
+    text-align: center;
+}
+.title{
+    text-decoration: underline red;
+    padding:20px 20px 20px 20px ;
+    height:100px;
+    width:100%;
+}
+.from-blog {
+    background-color: #FFFFFF;
+    height: auto;
+    font-size:30px ;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.gift,.pencils,.cycle{
+    height: 280px;
+    width: 350px;
+    position: relative;
+    text-align: center;
+    background-size: contain;
+}
+.gift{
+    background-image: url(blog1.jpg);
+}
+.pencils{
+    background-image: url(blog2.jpg);
+}
+.cycle{
+    background-image: url(blog3.jpg);
+}
+.footer{
+    margin-top: 0px;
+    height:auto;
+    width:100%;
+    background-color: #333333;
+}
+.soc-media,.info{
+    height: 90px;
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.info{
+    height: 400px;
+    font-size:16px;
+    font-weight: lighter;
+    color: #FFFFFF;
+}
+.pic{
+    height: 40px;
+    width: 190px;
+    background-image: url(logo2.png);
+    color: #F7F7F7;
+    background-size: cover;
+}
+
+.facebook,.twitter,.mail,.ball,.linkedin,.net{
+    color: #FFFFFF;
+    height: 90px;
+    width:190px;
+    background-color: transparent;
+    border:1px solid #444444;
+}
+.facebook:hover{
+    background-color: rgb(83, 83, 241);
+}
+.twitter:hover{
+    background-color: rgb(107, 212, 247);
+}
+.mail:hover{
+    background-color: rgb(193, 62, 18);
+}
+.ball:hover{
+    background-color: rgb(250, 120, 141);
+}
+.linkedin:hover{
+    background-color:rgb(102, 102, 205);
+}
+.net:hover{
+    background-color: orange;
+}
+.f-icons{
+    height: 100px;
+    width:190px;
+    justify-content: center;
+    align-items: center
+}
+ul{
+    list-style: none;
+}
+.textdiv,.ul-getintouch,.four,.categorie{
+    color: #FFFFFF;
+    margin: auto;
+    height: 300px;
+    width:350px;
+}
